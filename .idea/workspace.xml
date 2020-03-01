@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="c23a69c0-fc71-43b4-9a3c-aa28e66a2ab5" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1YMfoVP2dc5GIS7HdKsWvoCvaXy" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RunManager">
+    <configuration name="desafio_rpa" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="desafio_rpa" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/desafio_rpa.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.desafio_rpa" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c23a69c0-fc71-43b4-9a3c-aa28e66a2ab5" name="Default Changelist" comment="" />
+      <created>1582757559243</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1582757559243</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="94" y="149" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1583074475366">
+      <screen x="0" y="0" width="1280" height="984" />
+    </state>
+    <state x="94" y="149" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1280.984@0.0.1280.984" timestamp="1583074475366" />
+    <state x="400" y="301" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1583075200245">
+      <screen x="0" y="0" width="1280" height="984" />
+    </state>
+    <state x="400" y="301" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1280.984@0.0.1280.984" timestamp="1583075200245" />
+    <state x="395" y="200" key="#xdebugger.evaluate" timestamp="1583078978730">
+      <screen x="0" y="0" width="1280" height="984" />
+    </state>
+    <state x="395" y="200" key="#xdebugger.evaluate/0.0.1280.984@0.0.1280.984" timestamp="1583078978730" />
+    <state width="1278" height="440" key="DebuggerActiveHint" timestamp="1583076021822">
+      <screen x="0" y="0" width="1280" height="984" />
+    </state>
+    <state width="1278" height="440" key="DebuggerActiveHint/0.0.1280.984@0.0.1280.984" timestamp="1583076021822" />
+    <state width="1259" height="263" key="GridCell.Tab.0.bottom" timestamp="1583082250632">
+      <screen x="0" y="0" width="1280" height="984" />
+    </state>
+    <state width="1259" height="263" key="GridCell.Tab.0.bottom/0.0.1280.984@0.0.1280.984" timestamp="1583082250632" />
+    <state width="1259" height="263" key="GridCell.Tab.0.center" timestamp="1583082250632">
+      <screen x="0" y="0" width="1280" height="984" />
+    </state>
+    <state width="1259" height="263" key="GridCell.Tab.0.center/0.0.1280.984@0.0.1280.984" timestamp="1583082250632" />
+    <state width="1259" height="263" key="GridCell.Tab.0.left" timestamp="1583082250632">
+      <screen x="0" y="0" width="1280" height="984" />
+    </state>
+    <state width="1259" height="263" key="GridCell.Tab.0.left/0.0.1280.984@0.0.1280.984" timestamp="1583082250632" />
+    <state width="1259" height="263" key="GridCell.Tab.0.right" timestamp="1583082250632">
+      <screen x="0" y="0" width="1280" height="984" />
+    </state>
+    <state width="1259" height="263" key="GridCell.Tab.0.right/0.0.1280.984@0.0.1280.984" timestamp="1583082250632" />
+    <state width="1259" height="345" key="GridCell.Tab.1.bottom" timestamp="1583081997776">
+      <screen x="0" y="0" width="1280" height="984" />
+    </state>
+    <state width="1259" height="345" key="GridCell.Tab.1.bottom/0.0.1280.984@0.0.1280.984" timestamp="1583081997776" />
+    <state width="1259" height="345" key="GridCell.Tab.1.center" timestamp="1583081997776">
+      <screen x="0" y="0" width="1280" height="984" />
+    </state>
+    <state width="1259" height="345" key="GridCell.Tab.1.center/0.0.1280.984@0.0.1280.984" timestamp="1583081997776" />
+    <state width="1259" height="345" key="GridCell.Tab.1.left" timestamp="1583081997776">
+      <screen x="0" y="0" width="1280" height="984" />
+    </state>
+    <state width="1259" height="345" key="GridCell.Tab.1.left/0.0.1280.984@0.0.1280.984" timestamp="1583081997776" />
+    <state width="1259" height="345" key="GridCell.Tab.1.right" timestamp="1583081997776">
+      <screen x="0" y="0" width="1280" height="984" />
+    </state>
+    <state width="1259" height="345" key="GridCell.Tab.1.right/0.0.1280.984@0.0.1280.984" timestamp="1583081997776" />
+    <state x="143" y="137" key="SettingsEditor" timestamp="1583075515055">
+      <screen x="0" y="0" width="1280" height="984" />
+    </state>
+    <state x="143" y="137" key="SettingsEditor/0.0.1280.984@0.0.1280.984" timestamp="1583075515055" />
+    <state width="648" height="500" key="XDebugger.FullValuePopup" timestamp="1583078978047">
+      <screen x="0" y="0" width="1280" height="984" />
+    </state>
+    <state width="648" height="500" key="XDebugger.FullValuePopup/0.0.1280.984@0.0.1280.984" timestamp="1583078978047" />
+    <state x="347" y="319" key="com.intellij.ide.util.TipDialog" timestamp="1583074337808">
+      <screen x="0" y="0" width="1280" height="984" />
+    </state>
+    <state x="347" y="319" key="com.intellij.ide.util.TipDialog/0.0.1280.984@0.0.1280.984" timestamp="1583074337808" />
+    <state x="303" y="211" width="672" height="678" key="search.everywhere.popup" timestamp="1583076215185">
+      <screen x="0" y="0" width="1280" height="984" />
+    </state>
+    <state x="303" y="211" width="672" height="678" key="search.everywhere.popup/0.0.1280.984@0.0.1280.984" timestamp="1583076215185" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/desafio_rpa.py</url>
+          <line>14</line>
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
+      </breakpoints>
+      <default-breakpoints>
+        <breakpoint type="python-exception">
+          <properties notifyOnTerminate="true" exception="BaseException">
+            <option name="notifyOnTerminate" value="true" />
+          </properties>
+        </breakpoint>
+      </default-breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
