@@ -1,7 +1,7 @@
 # Desafio-RPA-Correios
 
 
-## Como faço para preprar o ambiente ?
+## Como faço para preprar o ambiente e executar o script ?
 
 ### Primeiro realize a instalação do python versão 3.7
 
@@ -11,7 +11,7 @@ Este comando irá instalar os requisitos necessários para a execução do scrip
 ![pip](https://github.com/willer007/Desafio-RPA---Correios/blob/master/readme/images/comando_pip_install.PNG)
 
 
-### Depois execute o seguinte comando para executar o script: python desafio_rpa.py
+### Então execute o seguinte comando para executar o script: python desafio_rpa.py
 ![python](https://github.com/willer007/Desafio-RPA---Correios/blob/master/readme/images/comando_python.PNG)
 
 
