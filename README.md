@@ -5,6 +5,8 @@
 
 ### Primeiro realize a instalação do python versão 3.7
 
+Clique no link a seguir para realizar o download do instalador https://www.python.org/ftp/python/3.7.6/python-3.7.6-amd64.exe
+
 ### Depois execute o seguinte comando dentro da pasta do projeto: pip install -r requirements.txt
 Este comando irá instalar os requisitos necessários para a execução do script
 
