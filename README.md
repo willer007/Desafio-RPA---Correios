@@ -12,6 +12,6 @@ Este comando irá instalar os requisitos necessários para a execução do scrip
 
 
 ### Depois execute o seguinte comando para executar o script: python desafio_rpa.py
-
+![python](https://github.com/willer007/Desafio-RPA---Correios/blob/master/readme/images/comando_python.PNG)
 
 
