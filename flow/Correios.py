@@ -8,28 +8,34 @@ import time
 
 class Correios:
 
-    def buscaCEP(self, cep):
-        data = {'relaxation': cep, 'tipoCEP': 'ALL', 'semelhante': 'N'}
-
-        session = requests.Session()
-
+    #EFETUA REQUEST DE BUSCA
+    def efetuaRequestDeBusca(self, session, data):
         time.sleep(0.2)
-        flag_processou_busca = False
-        while not flag_processou_busca:
+        while True:
             try:
                 response = session.post(
                     "http://www.buscacep.correios.com.br/sistemas/buscacep/resultadoBuscaCepEndereco.cfm",
                     data)
-                flag_processou_busca = True
-
-
+                return response
             except:
                 time.sleep(1.0)
 
-        listEnderecos = []
 
+    #METODO QUE REALIZA A BUSCA DE CEPS
+    def buscaCEP(self, cep):
+
+        #INICIALIZA VARIAVEIS PARA PRIMEIRA REQUEST
+        data = {'relaxation': cep, 'tipoCEP': 'ALL', 'semelhante': 'N'}
+        session = requests.Session()
+
+        #FAZ A REQUEST HTTP NO SITE DOS CORREIOS
+        response = self.efetuaRequestDeBusca(session, data)
+
+        #INICIALIZA A LISTA DE ENDERECOS
+        listEnderecos = []
         while True:
 
+            #PROCESSAMENTO DAS INFORMACOES OBTIDAS ATRAVES DA REQUEST
             soup = BeautifulSoup(response.content, 'html.parser')
             tableEnderecos = soup.find_all("table", class_="tmptabela")[0]
             trEnderecos = tableEnderecos.find_all("tr")
@@ -42,6 +48,7 @@ class Correios:
                 listEnderecos.append(
                     Endereco(tdEndereco[0].text, tdEndereco[1].text, tdEndereco[2].text, tdEndereco[3].text))
 
+            #ENQUANTO ELEMENTO Proxima  ESTA PRESENTE REALIZA NOVA REQUEST
             formProxima = soup.find_all("form", attrs={"name": "Proxima"})
             if (formProxima.__len__() == 0):
                 break;
@@ -54,16 +61,7 @@ class Correios:
             except:
                 None
 
-            time.sleep(0.2)
-            flag_processou_proximo = False
-            while not flag_processou_proximo:
-                try:
-                    response = session.post(
-                        "http://www.buscacep.correios.com.br/sistemas/buscacep/resultadoBuscaCepEndereco.cfm",
-                        data)
-                    flag_processou_proximo = True;
-
-                except:
-                    time.sleep(1.0)
+            #REALIZA A PROXIMA REQUEST
+            response = self.efetuaRequestDeBusca(session, data)
 
         return listEnderecos
